@@ -1,0 +1,15 @@
+
+button{
+    color: rgb(230, 243, 244);
+    font-size: x-large;
+    /* border: 3px solid blue; */
+    padding: 8px;
+    background-color: rgb(229, 30, 12);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.btn :hover{
+    color: yellow;
+}
