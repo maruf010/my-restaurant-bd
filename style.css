@@ -1,12 +1,41 @@
-
-button{
-    color: rgb(230, 243, 244);
-    font-size: x-large;
-    /* border: 3px solid blue; */
-    padding: 8px;
-    background-color: rgb(229, 30, 12);
-    border: none;
-    border-radius: 10px;
-    font-family: 'Times New Roman', Times, serif;
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(213, 204, 192);
+}
+header nav ul{
+    margin-left: 80%;
+    padding: 30px;
+    margin: 0px;
+}
+.head-pic{
+    /* background-color: aqua; */
+    background-image: url(images/Mackerel.jpeg);
+}
+header nav ul a {
+    color: aliceblue;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    margin: 8px;
+    background-color: crimson;
+    
+}
+.flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* background-image: url(images/Salmon.jpeg); */
+}
+.flex-box{
+    border: 1px solid palevioletred;
+    /* background-color: aqua; */
+    padding: 0;
+    margin: 5px;
+    width: 240px;
+    height: 240px;
+    font-size: 20px;
+}
+.second-flex-container{
 
 }
